@@ -1,0 +1,1 @@
+This is the unwanted file from the b dir.
