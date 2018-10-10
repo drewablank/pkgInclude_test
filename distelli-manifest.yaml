@@ -1,0 +1,7 @@
+derwablank/pkgInclude_test:
+  PkgInclude:
+    - ["bin/Release/","release/"]
+  PkgExclude:
+    - "bin/Release/appSettings.config"
+    - "bin/Release/connectionStrings.config"
+    - "bin/Release/MfaServiceHost.exe.config"
