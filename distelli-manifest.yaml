@@ -1,4 +1,7 @@
 derwablank/pkgInclude_test:
+  Build:
+    - pwd
+    - ls -lah
   PkgInclude:
     - ["bin/Release/","release/"]
   PkgExclude:
