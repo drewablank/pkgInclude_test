@@ -1,0 +1,10 @@
+drewablank/pkgInclude_test:
+  Build:
+    - pwd
+    - ls -lah
+  PkgInclude:
+    - ["bin/Release/","release/"]
+  PkgExclude:
+    - "bin/Release/appSettings.config"
+    - "bin/Release/connectionStrings.config"
+    - "bin/Release/MfaServiceHost.exe.config"
