@@ -5,7 +5,7 @@ drewablank/pkgInclude_test:
     - ls -lah
     
   PkgInclude:
-    - ["bin/Release/","release/"]
+    - ["/bin/Release/","release/"]
     
   PkgExclude:
     - "bin/Release/appSettings.config"
